@@ -168,7 +168,7 @@ def main():
 
         loraloadermodelonly = NODE_CLASS_MAPPINGS["LoraLoaderModelOnly"]()
         loraloadermodelonly_72 = loraloadermodelonly.load_lora_model_only(
-            lora_name="ban_chi_hai_1_flux_lora_v1_000001750.safetensors",
+            lora_name="tok_bob_flux_lora_v1.safetensors",
             strength_model=1.1,
             model=get_value_at_index(checkpointloadersimple_74, 0),
         )
